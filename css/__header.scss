@@ -1,0 +1,29 @@
+// START NAVBAR
+.navbar{
+  background: $primaryColor;
+  color: $lightColor;
+  height: 4.5rem;
+  .container{
+    @include container();
+    nav{
+      .menus{
+        a{
+         // border: $lightColor solid 1px;
+          color: $lightColor;
+          padding: 10px;
+          height: 100%;
+          margin: 0 5px;
+          &:hover{
+            border-bottom: 1px solid $lightColor;
+          }
+        }
+      }
+    }
+  }
+  // the flex class (misah sendiri supaya bisa di pakai ulang)
+  // the class flex for re-usable
+  // .flex{
+  //   @include flex-horizontal(space-between);
+  // }
+}
+// END NAVBAR

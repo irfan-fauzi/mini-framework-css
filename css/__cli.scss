@@ -1,0 +1,15 @@
+.cli{
+  .grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    &> *:first-child{ // setiap anak pertama dari parent grid
+      grid-column: 1/span 2; // column 1 dan 2 digabung
+      grid-row: 1/ span 2; // baris 1 dan 2 digabung
+    }
+    .card{
+      h3{
+        font-weight: 400;
+      }
+    }
+  }
+}

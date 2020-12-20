@@ -1,0 +1,32 @@
+// base setting
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  color: $textColor;
+  line-height: 1.6;
+}
+
+ul{
+  list-style-type: none; // hindari bullet point pada list
+}
+a{
+  text-decoration: none;
+  color: $textColor;
+}
+h1,h2{
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0; 
+}
+p{
+  margin: 10px 0;
+}
+img{
+  width: 100%; // to keep images full the container
+}
+
+// end base style
