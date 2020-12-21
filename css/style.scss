@@ -13,55 +13,8 @@
 @import "features-page/_features-sub-head";
 @import "features-page/_features-main";
 @import "docs-pages/_docs-main";
+@import "_animation-package";
 @import "_media-query";
-
-// ANIMATION START
-
-// 1. Slide from Left
-@keyframes slideInFromLeft{
-  0%{ // titik awal
-    transform: translateX(-100%); // berawal dari sisi kiri layar
-
-  }
-  100%{ // titik akhir
-    transform: translateX(0); // berakhir di posisi default
-  }
-}
-
-// 2. Slide from Right
-@keyframes slideInFromRight{
-  0%{ // titik awal
-    transform: translateX(100%); // berawal dari sisi kanan layar
-
-  }
-  100%{ // titik akhir
-    transform: translateX(0); // berakhir di posisi default
-  }
-}
-
-// 3. Slide from top
-@keyframes slideInFromTop{
-  0%{ // titik awal
-    transform: translateY(-100%); // berawal dari sisi kanan layar
-
-  }
-  100%{ // titik akhir
-    transform: translateX(0); // berakhir di posisi default
-  }
-}
-
-// 4. Slide from bottom
-@keyframes slideInFromBottom{
-  0%{ // titik awal
-    transform: translateY(100%); // berawal dari sisi kanan layar
-
-  }
-  100%{ // titik akhir
-    transform: translateX(0); // berakhir di posisi default
-  }
-}
-
-// ANIMATION END
 
 
 
