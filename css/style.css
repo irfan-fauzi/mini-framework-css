@@ -738,5 +738,13 @@ img {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .showcase .showcase-text-wrap {
+    max-width: 90%;
+    margin: 2rem auto 0;
+  }
+  .showcase .showcase-form {
+    max-width: 90%;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
