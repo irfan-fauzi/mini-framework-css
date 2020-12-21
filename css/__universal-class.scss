@@ -23,7 +23,33 @@
   background-color: $darkColor;
   color: $lightColor;
 }
+.bg-light, .btn-light{
+  background-color: $lightColor;
+  color: $darkColor;
+}
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a{
+  color: $lightColor;
+}
+
+.text-primary{
+  color: $primaryColor;
+}
+.text-secondary{
+  
+  color: $secondColor;
+}
+.text-dark{
+    color: $darkColor;
+}
+.text-light{
+  color: $lightColor;
+}
 // END OF CLASS BUTTON and BACKGROUND COLOR
 
 .container{
@@ -38,6 +64,9 @@
 .flex-center{
   @include flex-horizontal(center);
   flex-wrap: wrap;
+}
+.flex-start{
+  @include flex-horizontal(flex-start);
 }
 
 .grid{
@@ -141,3 +170,26 @@
 }
 
 // END OF FONT SIZE
+
+// ALERT
+.alert{
+  background-color: $lightColor;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+  i{
+    margin-right: 10px;
+  }
+}
+.alert-success{
+  background-color: $succesColor;
+  color: $lightColor;
+}
+.alert-warning{
+  background-color: yellow;
+}
+.alert-error{
+  background-color: $erorColor;
+  color: $lightColor;
+}
+// END ALERT

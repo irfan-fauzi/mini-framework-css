@@ -1,0 +1,20 @@
+// start languages
+.languages{
+  .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: 0.2s ease-in;
+    h4{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    &:hover{
+      transform: translateY(-15px);
+    }
+  }
+  .flex{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+// end languages

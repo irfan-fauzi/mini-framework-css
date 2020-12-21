@@ -1,5 +1,6 @@
 // start stats
 .stats{
+  animation: ease-in slideInFromBottom 1s;
   padding-top: 100px;
   .container{
     .stats-heading{

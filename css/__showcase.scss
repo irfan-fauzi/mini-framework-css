@@ -8,6 +8,7 @@
   .container{
     @include container();
     .showcase-text-wrap{
+      animation: ease-in slideInFromLeft 1s;
       h1{
         font-size: 40px;
       }
@@ -18,6 +19,7 @@
     }
   }
   .showcase-form{
+    animation: ease-in slideInFromRight 1s;
     position: relative;
     height: 350px;
     width: 400px;

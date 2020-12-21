@@ -1,0 +1,29 @@
+// DOCS MAIN
+.docs-main{
+  h3{
+    margin: 20px 0;
+  }
+  .grid{
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+  }
+  .grid>:first-child{
+    li{
+      font-size: 17px;
+      line-height: 2;
+      border-bottom: rgb(209, 205, 205) solid 1px;
+    }  
+  }
+  a{
+    &:hover{
+      font-weight: 700;
+    }
+  }
+  pre{
+    
+      background-color: #333;
+      padding: 10px;
+      color: $lightColor;
+  }
+}
+// END DOCS MAIN
